@@ -6,7 +6,7 @@ systemctl start apache2.service
 systemctl enable apache2.service
 
 apt install -y software-properties-common 
-add-apt-repository ppa:ondrej/php 
+echo -ne '\n' | add-apt-repository ppa:ondrej/php 
 
 apt update 
 apt install -y php7.3 php7.3-{common,gmp,curl,soap,bcmath,intl,mbstring,xmlrpc,mysql,gd,xml,cli,zip} libapache2-mod-php7.3
