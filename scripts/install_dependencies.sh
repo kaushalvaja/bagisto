@@ -1,5 +1,7 @@
+#!/bin/bash
+
 apt update 
-apt install apache2 
+apt install -y apache2 
 systemctl start apache2.service
 systemctl enable apache2.service
 apt-get install -y software-properties-common 
@@ -13,8 +15,8 @@ a2enmod rewrite
 service apache2 restart
 
 
-apt-get install curl
+apt-get install curl -y
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 apt-get install -y nodejs
 
-apt-get install mysql-server
+apt-get install mysql-server -y
