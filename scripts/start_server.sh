@@ -2,4 +2,4 @@
 
 #service apache2 start
 
-systemctl restart apache2
+systemctl restart apache2.service
