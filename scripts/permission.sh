@@ -1,7 +1,7 @@
-sudo chmod -R 755 /home/bagisto/bagisto
-sudo chown -R bagisto:bagisto /home/bagisto/bagisto/
+sudo chmod -R 755 /var/www/html/
+sudo chown -R bagisto:bagisto /var/www/html/
 
-chown -R bagisto:bagisto /home/bagisto
+chown -R bagisto:bagisto /var/www/html/*
 
 #cd /home/bagisto/bagisto/public
 
