@@ -7,3 +7,6 @@ chown -R bagisto:bagisto /home/bagisto
 cd /home/bagisto/bagisto/public
 
 composer install
+
+php artisan key:generate
+php artisan config:cache
