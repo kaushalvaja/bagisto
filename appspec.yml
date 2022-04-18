@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/bagisto/bagisto/public
+    destination: /var/www/html/public
     overwrite: true
 hooks:
   AfterInstall:

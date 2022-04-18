@@ -3,10 +3,10 @@ sudo chown -R bagisto:bagisto /home/bagisto/bagisto/
 
 chown -R bagisto:bagisto /home/bagisto
 
-cd /home/bagisto/bagisto/public
+#cd /home/bagisto/bagisto/public
 
-php artisan key:generate
-php artisan config:cache
+#php artisan key:generate
+#php artisan config:cache
 
 sudo service apache2 restart
 
